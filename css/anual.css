@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: black;
+}
+.nome{
+    color:#3462B7;
+    font-size: 65px;
+    margin: 22px;
+    padding: 12px;
+}
+.descricao{
+    text-align:left;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 250;
+    color: #ffffff;
+    width: 1400px;
+    margin: 30px;
+}
+.incluso{
+    margin: 35px;
+    display: flex;
+    justify-content: space-around;
+    h2{
+        text-transform: uppercase;
+        text-align:right;
+        width: 300px;
+        margin: 5px;
+        font-size: 40px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #376BCC;
+    }
+    .descricao2{
+    font-size: 28px;
+    text-align:right;
+    width: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    margin: 18px;
+}
+}
+ul{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align:left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 23px;
+    gap: 30px;
+}
+.container{
+    display: flex;
+    justify-content: flex-start; /* joga tudo pra esquerda */
+    align-items: flex-start;
+    gap: 800px; 
+}
+.card{
+    display: flex;
+    flex-direction: column;
+}
+    .titulo {
+        display: flex;
+        justify-content: center;
+        text-transform: uppercase;
+        margin: 15px;
+        font-size: 40px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #376BCC;
+    }
+    
+    .valores {
+        font-size: 60px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        color: #376BCC;
+        margin: 15px;
+        padding: 10px;
+    }
+    .anual {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: #252525;
+        width: 350px;
+        height: 300px;
+        border-radius: 8px;
+        
+        sub {
+            color: #ffffff;
+            font-size: 30px;
+            margin: 2px;
+        }
+        
+        sup {
+            color: #ffffff;
+            font-size: 30px;
+            margin: 6px;
+        }
+    }
+    .btnAssinar {
+        text-transform: uppercase;
+        background-color: black;
+        align-items: center;
+        font-size: 25px;
+        font-weight: 600;
+        width: 200px;
+        height: 50px;
+        border-radius: 50px;
+        border: 3px solid #2033AB;
+        color: #2033AB;
+        margin: 10px;
+}
+.btnConferir {
+        text-transform: uppercase;
+        background-color: black;
+        align-items: center;
+        font-size: 25px;
+        font-weight: 600;
+        width: 140px;
+        height: 50px;
+        border-radius: 50px;
+        border: 3px solid #2033AB;
+        color: #2033AB;
+        margin: 10px;
+}
+
+.cont-btn{
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
+}
+.btnConferir {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
