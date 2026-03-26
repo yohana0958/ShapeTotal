@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shape Total</title>
+    <link rel="stylesheet" href="css/agendar.css">
+</head>
+<body>
+
+<header>
+    <h2>SHAPE TOTAL</h2>
+    <a href="index.html" class="home-btn">HOME</a>
+</header>
+
+<main>
+      <section class="agendar">
+        <h1>AGENDAR AULA HIIT</h1>
+        <p>As aulas acontecem somente às segundas-feiras.</p>
+
+        <div class="box">
+            <label>Dia de aula</label>
+            <input type="text" value="Segunda-feira" disabled>
+
+            <label>Horário</label>
+            <select id="horario">
+                <option>07:00</option>
+                <option>08:00</option>
+                <option>14:00</option>
+                <option>15:00</option>
+                <option>19:00</option>
+            </select>
+        </div>
+
+        <button onclick="agendar()">Agendar</button>
+        <button onclick="reagendar()" class="reagendar">Reagendar</button>
+    </section>
+
+  
+    <section class="reservas">
+        <h1>MINHAS RESERVAS</h1>
+        <div id="lista"></div>
+    </section>
+</main>
+
+<script src="agendar.js"></script>
+</body>
+</html>
